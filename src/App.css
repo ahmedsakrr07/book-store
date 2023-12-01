@@ -1,0 +1,65 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+.nav-link {
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: var(--bs-nav-link-font-size);
+  font-weight: var(--bs-nav-link-font-weight);
+  color: var(--bs-nav-link-color);
+  text-decoration: none;
+  background: 0 0;
+  border: 0;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  font-weight: 600 !important;
+}
+
+.title {
+  background-color: #fafafa;
+  padding-bottom: 83px;
+  margin-bottom: 29px;
+}
+
+.title p {
+  font-size:71px;
+}
+
+.image {
+  width: 100%;
+  cursor: pointer;
+}
+
+.card-text {
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 13px;
+}
+
+.card-title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.card h1 {
+  font-size: 23px;
+}
+
+.card {
+  border-radius: 0px !important;
+}
+
+.card p {
+  font-size: 14px;
+  color: darkgrey;
+  font-weight: 500;
+}
+
+span {
+  font-weight: 900;
+  position: relative;
+  top: -7px;
+}
